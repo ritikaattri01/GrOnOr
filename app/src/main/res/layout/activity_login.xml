@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/grocerysplash"
+        android:backgroundTint="#51e1dfdf"
+        android:scaleType="fitEnd" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="16dp"
+
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NUTRITION KING"
+            android:layout_marginTop="100dp"
+            android:textColor="#000"
+            android:layout_centerHorizontal="true"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:id="@+id/ettextview"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ettextview"
+            android:hint="Username"
+            android:background="#D8C6C6"
+            android:layout_marginTop="40dp"
+            android:padding="10dp"
+            android:drawablePadding="16dp"
+            android:textSize="20dp"
+            android:textColorHint="#fff"
+            android:id="@+id/etusername"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etusername"
+            android:hint="Password"
+            android:background="#D8C6C6"
+            android:padding="10dp"
+            android:inputType="textPassword"
+            android:drawablePadding="16dp"
+            android:textSize="20dp"
+            android:textColorHint="#fff"
+            android:layout_marginTop="16dp"
+            android:id="@+id/etpassword"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Login"
+            android:textSize="20dp"
+            android:layout_marginTop="40dp"
+            android:textColorHint="#fff"
+            android:layout_below="@+id/etpassword"
+            android:background="#EC8B84"
+            android:id="@+id/blogin" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/blogin"
+            android:id="@+id/etnew"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="New User Register Here"
+                android:id="@+id/tvnew"
+                android:textColorHint="#000"
+                android:textSize="16dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Forgot password"
+                android:id="@+id/fpassword"
+                android:layout_alignParentRight="true"
+                android:textColorHint="#000"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
