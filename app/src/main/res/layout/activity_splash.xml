@@ -4,34 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/orange"
     tools:context=".Splash">
-
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="fitEnd"
-        android:src="@drawable/pic3"
-        />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="200dp"
-      android:textAlignment="center"
-        android:text="NUTRITION KING"
-        android:textColor="#000"
-        android:textSize="40dp"
-        android:textStyle="bold" />
+        app:srcCompat="@drawable/whitebasket" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="260dp"
-       android:textAlignment="center"
-        android:text="Eat Healthy,Stay Fit"
-        android:textColor="#000"
-        android:textSize="25dp"
-        android:textStyle="italic" />
+        android:layout_marginTop="300dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/cambria"
+        android:text="GrOnOr"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:textSize="32dp"
+        android:textStyle="bold" />
 
 </RelativeLayout>

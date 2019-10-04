@@ -5,39 +5,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Login">
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/grocerysplash"
-        android:backgroundTint="#51e1dfdf"
-        android:scaleType="fitEnd" />
-
     <RelativeLayout
         android:layout_width="match_parent"
-        android:padding="16dp"
+        android:padding="40dp"
+        android:layout_height="match_parent">
 
-        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/logo1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/basket" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="NUTRITION KING"
-            android:layout_marginTop="100dp"
-            android:textColor="#000"
+            android:text="GrOnOr"
+            android:textColor="@color/orange"
+            android:layout_marginTop="5dp"
             android:layout_centerHorizontal="true"
-            android:textSize="40dp"
+            android:textSize="32dp"
+            android:fontFamily="@font/cambria"
             android:textStyle="bold"
+            android:layout_below="@+id/logo1"
             android:id="@+id/ettextview"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/ettextview"
             android:hint="Username"
-            android:background="#D8C6C6"
+            android:drawableLeft="@drawable/person"
             android:layout_marginTop="40dp"
             android:padding="10dp"
             android:drawablePadding="16dp"
             android:textSize="20dp"
-            android:textColorHint="#fff"
+            android:textColorHint="@color/lightBlack"
             android:id="@+id/etusername"
             />
         <EditText
@@ -45,12 +48,13 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/etusername"
             android:hint="Password"
-            android:background="#D8C6C6"
             android:padding="10dp"
             android:inputType="textPassword"
             android:drawablePadding="16dp"
+            android:drawableLeft="@drawable/lock"
+
             android:textSize="20dp"
-            android:textColorHint="#fff"
+            android:textColorHint="@color/lightBlack"
             android:layout_marginTop="16dp"
             android:id="@+id/etpassword"
             />
@@ -62,8 +66,9 @@
             android:layout_marginTop="40dp"
             android:textColorHint="#fff"
             android:layout_below="@+id/etpassword"
-            android:background="#EC8B84"
-            android:id="@+id/blogin" />
+            android:background="@color/orange"
+            android:id="@+id/blogin"
+             />
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -74,7 +79,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="New User Register Here"
+                android:hint="Register"
                 android:id="@+id/tvnew"
                 android:textColorHint="#000"
                 android:textSize="16dp"
