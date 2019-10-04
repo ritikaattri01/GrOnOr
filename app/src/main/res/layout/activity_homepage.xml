@@ -17,6 +17,7 @@
         android:layout_height="wrap_content"
         android:text="Categories"
         android:textSize="24dp"
+        android:onClick="openBeverages"
         android:textAlignment="center"
         android:fontFamily="@font/cambria"
         android:background="@color/orange"

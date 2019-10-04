@@ -16,7 +16,7 @@
             android:layout_height="100dp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="50dp"
-            android:src="@drawable/basket" />
+            app:srcCompat="@drawable/basket" />
 
         <TextView
             android:layout_width="wrap_content"
