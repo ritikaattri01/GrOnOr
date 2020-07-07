@@ -24,36 +24,55 @@
             android:textSize="32dp"
             android:gravity="center"
             />
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:weightSum="2"
-            android:layout_below="@+id/signup"
-            android:id="@+id/us">
-            <EditText
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
-                android:id="@+id/fn"
-                android:hint="  First Name  "
-                android:padding="10dp"
-                />
-            <EditText
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
-                android:hint="  Last Name  "
-                android:layout_below="@+id/signup"
-                android:layout_toRightOf="@+id/fn"
-                android:layout_marginLeft="5dp"
-                android:padding="10dp"
-                android:id="@+id/ln"
-                />
-        </LinearLayout>
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/signup"-->
+<!--            android:id="@+id/us">-->
+<!--            <EditText-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:id="@+id/fn"-->
+<!--                android:hint="  First Name  "-->
+<!--                android:padding="10dp"-->
+<!--                />-->
+<!--            <EditText-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:hint="  Last Name"-->
+<!--                android:id="@+id/ln"-->
+<!--                android:layout_below="@+id/signup"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:padding="10dp" />-->
+<!--        </LinearLayout>-->
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/us"
+            android:layout_below="@+id/signup"
+            android:inputType="textEmailAddress"
+            android:id="@+id/fn"
+            android:hint="Full Name"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:padding="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fn"
+            android:inputType="textEmailAddress"
+            android:id="@+id/ln"
+            android:hint="Delivery Address"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:padding="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ln"
             android:inputType="textEmailAddress"
             android:id="@+id/email"
             android:hint="E-mail Address"
@@ -99,12 +118,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Register"
-            android:id="@+id/register"
             android:layout_below="@+id/cpassword"
-            android:background="@color/orange"
+            android:background="@drawable/button"
             android:textSize="20dp"
+            android:id="@+id/register"
             android:textColorHint="#fff"
-            android:onClick="userRegister"
             android:layout_marginTop="16dp"/>
     </RelativeLayout>
 

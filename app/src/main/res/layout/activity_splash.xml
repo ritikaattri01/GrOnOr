@@ -3,26 +3,31 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
     android:background="@color/orange"
+    android:paddingTop="300dp"
+    android:gravity="bottom"
     tools:context=".Splash">
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="200dp"
-        app:srcCompat="@drawable/whitebasket" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="300dp"
-        android:textAlignment="center"
-        android:fontFamily="@font/cambria"
-        android:text="GrOnOr"
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_centerHorizontal="true"
+        android:id="@+id/basket"
+        android:src="@drawable/shopbasket" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/basket"
+        android:textAlignment="center"
+        android:paddingTop="14dp"
+        android:fontFamily="@font/constantia"
+        android:text="Gronor"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
         android:textColor="#fff"
-        android:textSize="32dp"
+        android:textSize="36dp"
         android:textStyle="bold" />
 
 </RelativeLayout>

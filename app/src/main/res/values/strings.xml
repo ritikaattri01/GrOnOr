@@ -1,8 +1,29 @@
 <resources>
-    <string name="app_name">NUTRITION KING</string>
-    <string name="title_activity_bottom_navigation">bottomNavigation</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
-    <string name="title_activity_bottom_nav">BottomNav</string>
+    <string name="nav_header_subtitle">http://m.gronor.com</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_slideshow">My Cart</string>
+    <string name="menu_tools">My Orders</string>
+    <string name="menu_share">Rate us</string>
+    <string name="menu_send">About us</string>
+    <string name="aboutus">
+        Gronor is India’s largest low price online super-market in the grocery space. The company uses its in-house technology platform to manage a
+        network of over 5,000 partner stores  that enable the company to run a fast and lean supply chain – from manufacturers straight to customers
+        in 27+ cities namely Agra, Ahmedabad, Aligarh, Allahabad, Asansol,  Bengaluru, Bhiwadi, Chandigarh, Chennai, Delhi, Durgapur, Faridabad, Guwahati,
+        Hapur, HR-NCR, Hyderabad, Indore, Jaipur, Kanpur, Kolkata, Lucknow, Meerut, Modinagar, Moradabad, Mumbai, Panipat, Pune, Rohtak, Sonipat, UP-NCR,
+        Vadodara, and Zirakpur. Gronor utilizes its efficient supply chain to deliver over 25 million products to customers every month.  A majority of
+        these products belong to the company’s 8 in house brands namely  Gronor Happy Day, Gronor Happy Home, Gronor Mothers choice, Gronor Happy Baby,
+        G Fresh, O’range and budget brands Savemore and Havemore.
+
+        It is hereby clarified that Gronor India Private Limited does not have any relation with the mark ‘Gronor’,  which (we are given to understand) is used
+        by Redstone Consultancy Services Pvt Ltd for its real estate services business, which is not related to Gronor India Private Limited in any manner.
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="action_tools">Login</string>
+    <string name="search">SEARCH</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps2">Map</string>
 </resources>

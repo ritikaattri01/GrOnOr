@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        android:textColor="#fff"
+        android:text="CART"
+        android:textSize="20dp"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/cambria"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/recycler1"
+            android:layout_height="match_parent">
+        </androidx.recyclerview.widget.RecyclerView>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Place Order"
+            android:id="@+id/order"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:layout_alignParentBottom="true"
+            android:textSize="18dp"
+            android:background="@drawable/button"
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</LinearLayout>

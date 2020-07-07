@@ -16,17 +16,17 @@
             android:layout_height="100dp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="50dp"
-            app:srcCompat="@drawable/basket" />
+            app:srcCompat="@drawable/shopbasket" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="GrOnOr"
+            android:text="Gronor"
             android:textColor="@color/orange"
             android:layout_marginTop="5dp"
             android:layout_centerHorizontal="true"
             android:textSize="32dp"
-            android:fontFamily="@font/cambria"
+            android:fontFamily="@font/constantia"
             android:textStyle="bold"
             android:layout_below="@+id/logo1"
             android:id="@+id/ettextview"/>
@@ -34,8 +34,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/ettextview"
-            android:hint="Username"
-            android:drawableLeft="@drawable/person"
+            android:hint="Email"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
             android:layout_marginTop="40dp"
             android:padding="10dp"
             android:drawablePadding="16dp"
@@ -52,7 +52,6 @@
             android:inputType="textPassword"
             android:drawablePadding="16dp"
             android:drawableLeft="@drawable/lock"
-
             android:textSize="20dp"
             android:textColorHint="@color/lightBlack"
             android:layout_marginTop="16dp"
@@ -66,32 +65,31 @@
             android:layout_marginTop="40dp"
             android:textColorHint="#fff"
             android:layout_below="@+id/etpassword"
-            android:background="@color/orange"
+            android:background="@drawable/button"
             android:id="@+id/blogin"
              />
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/blogin"
-            android:id="@+id/etnew"
             android:layout_marginTop="40dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="Register"
+                android:text="Register"
                 android:id="@+id/tvnew"
-                android:textColorHint="#000"
+                android:textColor="#000"
                 android:textSize="16dp"
                 />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="Forgot password"
+                android:text="Forgot password ?"
                 android:id="@+id/fpassword"
                 android:layout_alignParentRight="true"
-                android:textColorHint="#000"
+                android:textColor="#000"
                 android:textSize="16dp" />
 
         </RelativeLayout>
